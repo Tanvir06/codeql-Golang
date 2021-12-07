@@ -39,5 +39,5 @@ jobs:
     - name: Autobuild
       uses: github/codeql-action/autobuild@v1
 
-    - name: Run Security Scan
+    - name: Perform Security Scan
       uses: github/codeql-action/analyze@v1
