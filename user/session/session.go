@@ -1,8 +1,6 @@
 package session
 
 import (
-
-
 	"log"
 	"fmt"
 	"net/http"
