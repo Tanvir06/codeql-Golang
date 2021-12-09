@@ -9,7 +9,6 @@ import (
 	"database/sql"
 	"encoding/hex"
 	"html/template"
-
 	"github.com/govwa/util"
 	"github.com/govwa/util/config"
 	"github.com/govwa/user/session"
@@ -30,10 +29,12 @@ pass : govwauser1
 
 type Self struct{} //oop like syntax
 
-func New() *Self {
+func New() *Self 
+{
 	return &Self{}
 }
-func (self *Self) SetRouter(r *httprouter.Router) {
+func (self *Self) SetRouter(r *httprouter.Router) 
+{
 	/* register all router */
 
 	mw := middleware.New() //implement middleware
